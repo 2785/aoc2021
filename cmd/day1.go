@@ -40,7 +40,7 @@ func SolveDay1P1(input string) (int, error) {
 func DoDay1P1(input string) {
 	sol, err := SolveDay1P1(input)
 	if err != nil {
-		zap.L().Error("failed to solve day 1 p1", zap.Error(err))
+		zap.L().Fatal("failed to solve day 1 p1", zap.Error(err))
 		return
 	}
 
@@ -78,7 +78,7 @@ func SolveDay1P2(input string) (int, error) {
 func DoDay1P2(input string) {
 	sol, err := SolveDay1P2(input)
 	if err != nil {
-		zap.L().Error("failed to solve day 1 p2", zap.Error(err))
+		zap.L().Fatal("failed to solve day 1 p2", zap.Error(err))
 		return
 	}
 
