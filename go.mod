@@ -3,6 +3,7 @@ module github.com/2785/aoc2021
 go 1.17
 
 require (
+	github.com/davecgh/go-spew v1.1.1
 	github.com/mattn/go-isatty v0.0.3
 	github.com/pkg/errors v0.8.1
 	github.com/spf13/cobra v1.2.1
@@ -11,7 +12,6 @@ require (
 )
 
 require (
-	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
