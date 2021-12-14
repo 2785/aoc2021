@@ -220,5 +220,5 @@ func solveDay13P2(input string) (int, error) {
 		fmt.Println(strings.Join(v, ""))
 	}
 
-	return len(sparseGrid), nil
+	return 0, nil
 }
